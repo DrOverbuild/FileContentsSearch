@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="r">
+    <output-path>$PROJECT_DIR$/out/artifacts/FileContentsSearch_jar</output-path>
+    <root id="archive" name="FCS.jar">
+      <element id="module-output" name="FileContentsSearch" />
+    </root>
+  </artifact>
+</component>
