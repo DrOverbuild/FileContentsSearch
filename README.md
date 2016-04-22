@@ -13,14 +13,14 @@ This tool is non-case sensitive, meaning that it will ignore the cases of search
 words, surround these with double quotation marks ("). For example, to search for "good bye", the command would
 look like this:
 
-java -jar FCS.jar -dir:<dir> "good bye"
+`java -jar FCS.jar -dir:<dir> "good bye"`
 
 If you want to ignore some text, precede the text with two dashes (--). Any line containing this in the given
 text files will not be listed in the output. In addition, quotation marks can also be used if the match to
 ignore has more than one word. For example, to list any line that contains "Hello" but not "Hello World!", the
 command would look like this:
 
-java -jar FCS.jar -dir:<dir> Hello --"Hello World!"
+`java -jar FCS.jar -dir:<dir> Hello --"Hello World!"`
 
 Here are some more examples of ways to use this:
 
