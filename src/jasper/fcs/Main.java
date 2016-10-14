@@ -115,13 +115,10 @@ public class Main {
 			System.out.println(" - checkPathName");
 		}
 
-		System.out.println("Getting start time");
 		startTime = System.currentTimeMillis();
 
-		System.out.println("Running key listener thread");
 		runKeyListenerThread();
 
-		System.out.println("Searching");
 		searchDir(homeDir);
 
 		printInfo();
